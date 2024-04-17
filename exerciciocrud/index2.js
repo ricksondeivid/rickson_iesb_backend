@@ -55,5 +55,5 @@ app.delete('/pessoas/:id', (req, res) => {
 
 const PORT = 3000;
 app.listen(PORT, () => {
-    console.log(`Server rodando na porta ${PORT}`);
+    console.log(`Server funcionando na porta ${PORT}`);
 });
